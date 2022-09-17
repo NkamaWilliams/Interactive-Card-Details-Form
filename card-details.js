@@ -196,3 +196,7 @@ function print_card(){
     cvc.innerHTML = fmcvc;
     date.innerHTML = fmmonth + "/" + fmyear;
 }
+
+function reset(){
+    window.location.href = "./index.html";
+}
